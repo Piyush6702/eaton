@@ -85,7 +85,7 @@ html{
 #home::before{
 
     content: '';
-    background: url('Img/bg1.jpg') no-repeat center center /cover;
+    background: url('../Img/bg1.jpg') no-repeat center center /cover;
     position: absolute;
     height: 60vh;
     width: 100vw;
@@ -199,7 +199,7 @@ html{
 
 #clients-container::before{
     content: '';
-    background: url('Img/clients1.jfif') no-repeat center center/cover;
+    background: url('../Img/clients1.jfif') no-repeat center center/cover;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -234,7 +234,7 @@ html{
 #contact-box::before{
     content: '';
     position: absolute;
-    background: url('Img/contact3.jpg') no-repeat center center;
+    background: url('../Img/contact3.jpg') no-repeat center center;
     height: 100%;
     width: 98vw;
     z-index: -1;
