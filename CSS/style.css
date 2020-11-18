@@ -1,0 +1,304 @@
+/* CSS RESET */
+
+* {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+   
+}
+
+/* navbar styling */
+
+#navbar{
+    position: sticky;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#navbar::before{
+    content: '';
+    background-color: rgb(139, 67, 67);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+/* Navbar : Logo */
+#logo img {
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+/* Navbar items */
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+   list-style: none;
+   font-size: 1.3rem;
+}
+
+
+#navbar ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 2px 15px;
+    margin: 15px 10px;
+    color: rgb(255, 255, 255);
+}
+
+#navbar ul li a:hover{
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(211, 164, 63);
+
+
+}
+
+
+
+
+/* --/-/-/-/-/------------Section-/-/-/-/----------------*/
+#home{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 340px;
+    height: 60vh;
+    
+    
+}
+
+#home::before{
+
+    content: '';
+    background: url(../Img/bg1.jpg) no-repeat center center /cover;
+    position: absolute;
+    height: 60vh;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    z-index: -2;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: yellow;
+}
+
+#home p{
+    color: white;
+}
+/* Utility Clasees */
+.h1-primary{
+    font-family: 'Baloo Bhaina 2', cursive;
+    padding: 5px;
+    font-size: 3rem;
+}
+.h2-secondary{
+    font-family: 'Baloo Bhaina 2', cursive;
+    padding: 0px 5px;
+    font-size: 2.5rem;
+}
+.p-primary{
+    
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(251, 255, 0);
+
+}
+
+.btn{
+    padding: 5px 10px;
+    margin: 15px;
+    background-color: brown;
+    color: white;
+    border:2px solid black;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.08);
+    box-shadow:3px 3px 3px black ,-3px -3px 3px black ;
+}
+
+.center{
+    text-align: center;
+}
+
+.small{
+    width: 10%;
+    display: block;
+    margin: 0px auto;
+    padding: 0px;
+
+}
+
+
+/* -/-/-/-/------------services Section----/-/-/-/---------------------- */
+#services{
+    display: flex;
+    margin: 0px 10px;
+    
+}
+
+#services .box{
+ 
+    border: 2px solid brown;
+    margin: 0px 15px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #f8d582;
+    transition: all 0.8s ease;
+   
+}
+
+#services .box:hover{
+    transform: scale(1.03);
+    box-shadow:3px 3px 3px black ,-3px -3px 3px black ;
+}
+#services .box img{
+    
+    margin: auto;
+    padding: 0px 10px;
+    width: 250px;
+    height: 150px;
+    display: block;
+
+}
+
+#services .box p{
+    color: black;
+    font-size: 1rem;
+}
+
+/* ------------Clients Section-------  */
+#clients-container{
+    height: auto;
+    position: relative;
+    margin: 80px 0px;
+    margin-bottom: 10px;
+
+    
+}
+
+#clients-container::before{
+    content: '';
+    background: url(/Img/clients1.jfif) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.clients-items{
+    padding: 34px;
+}
+
+#clients img{
+    width: 200px;
+    height: 150px;
+}
+
+/* ----------Contact Section----------- */
+#contact{
+    margin: 5px;
+    /* margin-bottom: 20px; */
+    height: auto;
+    position: relati
+
+}
+
+#contact-box::before{
+    content: '';
+    position: absolute;
+    background: url('/Img/contact3.jpg') no-repeat center center;
+    height: 100%;
+    width: 98vw;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+#contact-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 0px 34px;
+    
+}
+ 
+.form-group{
+    margin: 2px 0px;
+   
+} 
+.form-group label{
+    color:black;
+    font-size: 1.3rem;
+    
+}
+.form-group input ,textarea {
+    width: 100%;
+    font-size: 1.2rem;
+    border: 3px solid #db5b00;;
+    border-radius:10px;
+    padding: 5px;
+}
+
+
+
+.btn1{
+    display: block;
+    margin: 15px auto;
+    padding: 0px 20px;
+    background-color: #221818;
+    color: white;
+    border:2px solid #ffffff;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.btn1:hover{
+    transform: scale(1.08);
+    box-shadow:3px 3px 5px black ,-3px -3px 5px black ;
+}
+
+
+/* ------------footer----------- */
+#footer{
+    margin:15px 5px;
+    background-color: black;
+    color: white; 
+}
+
+#footer p{
+    padding: 5px 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 1.25rem;
+}

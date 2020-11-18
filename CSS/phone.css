@@ -1,0 +1,93 @@
+
+
+/* ---Navbar section----- */
+#navbar{
+    flex-direction: column;
+    width: 100vw; 
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 5px;
+    padding-bottom:5px ;
+}
+
+
+
+/* ----------Home Section------ */
+#home{
+    height: 60vh;
+    padding: 0px 60px;
+    text-align: center;
+    margin-bottom: ;
+}
+
+#home::before{
+    height: 60vh;
+}
+.btn{
+    font-size: 1rem;
+}
+
+/* ------Services Section----------- */
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    padding: 14px;
+    /* margin: 2px 0px;  */
+    margin-bottom: 20px;
+}
+#services .box img{
+    width: 25vw;
+    height: 15vh;
+}
+
+
+/* -----------Clients Section----------- */
+
+#clients-container{
+    margin: auto;
+}
+#clients{
+    flex-wrap: wrap;
+   
+}
+.clients-items{
+    padding: 0px 0px;
+}
+
+#clients img{
+    margin: auto;
+    width: 160;
+    padding: 2vh;
+    height:20vh;
+}
+
+/* --------------Contact Section --------- */
+#contact{
+    /* height: 90vh; */
+    margin: 10px 0px;
+    padding-bottom: 20px;
+}
+
+#contact-box::before{
+    /* height: ; */
+    width: 100%;
+    /* padding: 0px 10px; */
+}
+
+/* ---------Utility Classes-------------------- */
+
+.h1-primary{
+    font-size: 2rem;
+}
+
+.h2-secondary{
+    font-size: 1.5rem;
+}
+
+.p-primary{
+    font-size: 0.8rem;
+}
